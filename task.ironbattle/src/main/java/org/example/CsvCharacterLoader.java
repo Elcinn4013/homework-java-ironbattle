@@ -25,7 +25,7 @@ public class CsvCharacterLoader {
                     int hp = Integer.parseInt(lineArr[2]);
                     int mana  = Integer.parseInt(lineArr[3]);
                     int intelligance  = Integer.parseInt(lineArr[4]);
-                    characters.add(new Warrior(name,hp,mana,intelligance));
+                    characters.add(new Wizard(name,hp,mana,intelligance));
                 }
 
             }
